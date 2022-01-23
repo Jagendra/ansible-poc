@@ -1,12 +1,12 @@
 ---
 - name: Stop Cluster
   hosts: localhost
-  become: true
-  vars:
-    host= "localhost"
+  #become: true
+  #vars:
+    #host= "localhost"
   
   tasks:
   - name: Stop Cluster
     debug:
-      msg: "The Cluster {{host}} has been successfully Stopped."
+      msg: "The Cluster has been successfully Stopped."
 ...
