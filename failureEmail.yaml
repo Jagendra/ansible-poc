@@ -1,0 +1,18 @@
+---
+- name: Email Notication on Failure 
+  hosts: localhost
+  
+  tasks:
+    - name: Email using Gmail smtp server
+      mail:
+        host: smtp.gmail.com
+        port: 587
+        username: jagendra.khadka@gmail.com
+        password: mypassword
+        to: pushpendra.s.bhandari07@gmail.com
+        from: no_reply_cti@cti.com
+        subject: WorkFlow Failed
+        body: 'One of the tasks in the workflow has failed.'
+      delegate_to: localhost
+...
+

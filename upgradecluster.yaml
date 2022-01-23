@@ -1,0 +1,19 @@
+---
+- name: Upgrade Cluster
+  hosts: localhost
+  become: true
+  vars:
+    host= "localhost"
+  
+  tasks:
+  - name: Append text to the file
+    lineinfile:
+      path: /home/temp/update.txt
+      line: "the cluster {{host }} upgraded  successfully on {{ ansible_date_time.iso8601 }} ."
+      insertafter: EOF
+      create: true
+
+  - name: Cluster Upgrade
+    debug:
+      msg: "The Cluster {{host}} has been successfully upgraded on {{ ansible_date_time.iso8601 }} ."
+...
