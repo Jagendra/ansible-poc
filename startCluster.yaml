@@ -2,7 +2,7 @@
 - 
   become: true
   gather_facts: true
-  hosts: localhost
+  hosts: all
   name: "Start Cluster"
   tasks: 
     - 
