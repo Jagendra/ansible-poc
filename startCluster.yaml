@@ -1,6 +1,11 @@
-- name: Hello World Sample
+--- 
+- 
+  #become: true
+  #gather_facts: true
   hosts: all
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+  name: "Start Cluster"
+  tasks: 
+    - 
+      debug: 
+        msg: "The Cluster has been successfully Started."
+      name: "Start Cluster"
