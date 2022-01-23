@@ -1,6 +1,6 @@
 --- 
 - 
-  #become: true
+  become: true
   #gather_facts: true
   hosts: localhost
   name: "Start Cluster"
