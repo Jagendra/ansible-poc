@@ -2,12 +2,12 @@
 - name: Start Cluster
   hosts: localhost
   become: true
-  vars:
-    host= "localhost"
+  #vars:
+   # host= "localhost"
     gather_facts: yes
   
   tasks:
   - name: Start Cluster
     debug:
-      msg: "The Cluster {{host}} has been successfully Started."
+      msg: "The Cluster has been successfully Started."
 ...
