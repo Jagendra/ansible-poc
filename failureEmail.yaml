@@ -8,7 +8,7 @@
         host: smtp.gmail.com
         port: 587
         username: jagendra.khadka@gmail.com
-        password: mypassword
+        password: Simran#321
         to: pushpendra.s.bhandari07@gmail.com
         from: no_reply_cti@cti.com
         subject: WorkFlow Failed
