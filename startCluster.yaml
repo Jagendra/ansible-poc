@@ -1,0 +1,13 @@
+---
+- name: Start Cluster
+  hosts: localhost
+  become: true
+  vars:
+    host= "localhost"
+    gather_facts: yes
+  
+  tasks:
+  - name: Start Cluster
+    debug:
+      msg: "The Cluster {{host}} has been successfully Started."
+...
