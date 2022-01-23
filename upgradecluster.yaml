@@ -1,6 +1,6 @@
 ---
 - name: Upgrade Cluster
-  hosts: 192.168.1.122
+  hosts: localhost
   #become: true
   #vars:
   #  host= "localhost"
