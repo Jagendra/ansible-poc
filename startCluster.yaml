@@ -2,6 +2,7 @@
 - name: Start Cluster
   hosts: web
   become: true
+  become_method: sudo
   become_user: admin
      
   tasks:
