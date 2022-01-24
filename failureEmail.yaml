@@ -9,7 +9,7 @@
         port: 587
         username: jagendra.khadka@gmail.com
         password: Simran#321
-        to: pushpendra.s.bhandari07@gmail.com
+        to: jagen.kh@gmail.com
         from: jagen.kh@gmail.com
         subject: WorkFlow Failed
         body: 'One of the tasks in the workflow has failed.'
