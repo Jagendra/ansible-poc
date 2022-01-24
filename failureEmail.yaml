@@ -1,6 +1,8 @@
 ---
 - name: Email Notication on Failure 
   hosts: localhost
+  vars_files: /home/tmp/secret.yml
+
   
   tasks:
     - name: Email using Gmail smtp server
@@ -8,7 +10,7 @@
         host: smtp.gmail.com
         port: 587
         username: jagendra.khadka@gmail.com
-        password: Simran#321
+        password: "{{ p }}"
         to: jagen.kh@gmail.com
         from: no-reply@citi.com
         subject: WorkFlow Failed
