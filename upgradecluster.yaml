@@ -1,7 +1,7 @@
 ---
 - name: Upgrade Cluster
   hosts: localhost
-  become: true
+  #become: true
   #vars:
   #  host= "localhost"
   
