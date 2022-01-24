@@ -2,6 +2,7 @@
 - name: Start Cluster
   hosts: localhost
   become: true
+  become_user: admin
      
   tasks:
   - name: Start Cluster
