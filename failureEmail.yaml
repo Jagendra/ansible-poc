@@ -10,7 +10,7 @@
         username: jagendra.khadka@gmail.com
         password: Simran#321
         to: jagen.kh@gmail.com
-        from: jagen.kh@gmail.com
+        from: no-reply@citi.com
         subject: WorkFlow Failed
         body: 'One of the tasks in the workflow has failed.'
       delegate_to: localhost
