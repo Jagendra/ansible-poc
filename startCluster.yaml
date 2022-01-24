@@ -1,8 +1,8 @@
 ---
 - name: Start Cluster
   hosts: web
-  #become: true
-  #become_user: admin
+  become: true
+  become_user: admin
      
   tasks:
   - name: Start Cluster
