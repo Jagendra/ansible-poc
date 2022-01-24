@@ -1,6 +1,6 @@
 ---
 - name: Stop Cluster
-  hosts: WEB Server
+  hosts: web
   #become: true
   #vars:
     #host= "localhost"
