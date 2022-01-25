@@ -1,7 +1,8 @@
 ---
 - name: Stop Cluster
   hosts: web
-  #become: true
+  become: true
+  become_method: enable
   #vars:
     #host= "localhost"
   
