@@ -1,6 +1,8 @@
 ---
 - name: Email Notication on Failure 
   hosts: localhost
+  become: true
+  become_method: enable
   vars_files: /home/tmp/secret.yml
 
   
